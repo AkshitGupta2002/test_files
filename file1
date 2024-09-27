@@ -3,3 +3,12 @@ git commit -a -m "FIle modified" -> Directly add to the local repo without putti
 
 The changes made to the file1
 The changes made to file 1 so that the changes can be reflected on the feature branch
+
+
+The commands used today
+1. git branch -m feature -> To create a feature branch
+2. Make changes to any file
+3. Add and commit the changes
+4. Push the changes to the feature branch
+5. Switch back to the main branch
+6. git merge feature -> To merge the feature branch to the main branch
