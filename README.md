@@ -22,4 +22,7 @@ When they try to combine their changes (merge), the system cannot decide which v
    ```bash
    git clone <your-repo-url>
    cd <your-repo-directory>
-2. 
+   ```
+2. **Switch back to the main branch**
+   ```bash
+   
