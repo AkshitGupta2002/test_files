@@ -1,5 +1,5 @@
-# Sample test files to test the merge conflicts
-# Merge Conflict Demonstration
+
+# Merge Conflict Demonstration (git folder)
 
 ## Overview
 This repository is created to demonstrate the concept of a merge conflict in Git. A merge conflict occurs when two branches have made changes to the same line in a file or when a file has been deleted in one branch and modified in another. This README provides a real-life analogy and the steps to reproduce the conflict.
