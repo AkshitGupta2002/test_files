@@ -1,1 +1,39 @@
-terraform/main.tf
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform crash log files
+crash.log
+
+# Ignore override files as they are not meant to be shared
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan files, which are created after running 'terraform plan'
+*.tfplan
+
+# Ignore the .terraform directory, where Terraform keeps its downloaded providers
+.terraform/
+
+# Ignore provider lock file (optional)
+.terraform.lock.hcl
+
+# Ignore any files with sensitive variables, such as AWS credentials
+*.tfvars
+*.tfvars.json
+
+# Ignore temporary files that could be created by your editor
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Ignore directory-specific files
+terraform_VPC/.terraform/
+terraform_S3/.terraform/
+terraform_VPC/terraform.tfstate
+terraform_S3/terraform.tfstate
+terraform_VPC/terraform.tfstate.backup
+terraform_S3/terraform.tfstate.backup
